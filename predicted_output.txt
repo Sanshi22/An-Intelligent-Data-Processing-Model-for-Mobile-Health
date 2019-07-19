@@ -1,0 +1,6 @@
+Logistic Regression Predicts 0
+Naive Bayes Classifier Predicts 0
+SVM Classifier Predicts 1
+KNeighbors Classifier Predicts 1
+Decision Tree Classifier Predicts 1
+Random Forest Predicts 1

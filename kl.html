@@ -1,0 +1,28 @@
+<?php
+// Starting session
+session_start();
+ 
+// Accessing session data
+echo 'Hi, ' . $_SESSION["user"] ;
+?>
+<html>
+<head>
+	<title>Yo</title>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<script>
+	var d=[60,65,23,10,0,5,0,36,0,1,11,0];
+$.ajax({
+    url: "http://127.0.0.1:5000/output", 
+    type: "POST",
+    data:{'inputVar': d},
+    success: function( data ) { 
+        alert( " " + data );
+    }   
+});
+</script>
+
+</body>
+</html>
